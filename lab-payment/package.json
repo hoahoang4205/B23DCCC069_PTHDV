@@ -1,0 +1,16 @@
+{
+  "name": "lab-payment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bank": "node bank/index.js",
+    "fee": "node fee-service/index.js",
+    "load200": "node scripts/load-200.js",
+    "burst20": "node scripts/burst-20.js",
+    "run60": "node scripts/run-60.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

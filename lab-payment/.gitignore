@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# File rác / test tạm
+body.json
+*.log
+
+# Môi trường
+.env
+.env.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
